@@ -4,3 +4,4 @@ joblib
 tensorflow
 scikit-learn
 keras
+tensorflow
