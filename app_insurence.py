@@ -1,8 +1,8 @@
 
 import streamlit as st
 import pandas as pd
-import joblib
-from tensorflow.keras.models import load_model # Even though joblib was used, load_model is safer for Keras
+import joblib 
+model = joblib.load("model.pkl") # Even though joblib was used, load_model is safer for Keras
 
 # Load the trained model and scaler
 try:
